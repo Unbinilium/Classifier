@@ -10,7 +10,7 @@
 		624FDFAF2840E87D00F6976B /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FDFAC2840E87D00F6976B /* VisionObjectRecognitionViewController.swift */; };
 		624FDFB02840E87D00F6976B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FDFAD2840E87D00F6976B /* ViewController.swift */; };
 		624FDFB12840E87D00F6976B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FDFAE2840E87D00F6976B /* AppDelegate.swift */; };
-		62A723322840C9290076EEA3 /* yolov5s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 62A723312840C9290076EEA3 /* yolov5s.mlmodel */; };
+		624FDFB32840EC9F00F6976B /* yolov5s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 624FDFB22840EC9F00F6976B /* yolov5s.mlpackage */; };
 		FAD500A41ED668B60074D713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD500A21ED668B60074D713 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -18,7 +18,7 @@
 		624FDFAC2840E87D00F6976B /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		624FDFAD2840E87D00F6976B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		624FDFAE2840E87D00F6976B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62A723312840C9290076EEA3 /* yolov5s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5s.mlmodel; sourceTree = "<group>"; };
+		624FDFB22840EC9F00F6976B /* yolov5s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov5s.mlpackage; sourceTree = "<group>"; };
 		FAD5009B1ED668B60074D713 /* Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD500A31ED668B60074D713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD500AA1ED668B60074D713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		62A723352840E79D0076EEA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				62A723312840C9290076EEA3 /* yolov5s.mlmodel */,
+				624FDFB22840EC9F00F6976B /* yolov5s.mlpackage */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			files = (
 				624FDFB12840E87D00F6976B /* AppDelegate.swift in Sources */,
 				624FDFB02840E87D00F6976B /* ViewController.swift in Sources */,
-				62A723322840C9290076EEA3 /* yolov5s.mlmodel in Sources */,
+				624FDFB32840EC9F00F6976B /* yolov5s.mlpackage in Sources */,
 				624FDFAF2840E87D00F6976B /* VisionObjectRecognitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

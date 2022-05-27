@@ -1,0 +1,24 @@
+{
+  "Outputs" : {
+    "coordinates" : {
+      "MLFeatureShortDescription" : "Boxes [x, y, width, height] (normalized to [0...1])"
+    },
+    "confidence" : {
+      "MLFeatureShortDescription" : "Boxes Class confidence"
+    }
+  },
+  "Inputs" : {
+    "image" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "confidenceThreshold" : {
+      "MLFeatureShortDescription" : "(optional) Confidence Threshold override"
+    },
+    "iouThreshold" : {
+      "MLFeatureShortDescription" : "(optional) IOU Threshold override"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}
